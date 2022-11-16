@@ -27,8 +27,7 @@ class ATM(ATMState):
         return self.atm_balance
 
     def print_current_atm_status(self):
-        # print("Balance: {self.atm_balance}")
-        print("aaa")
+        print(f"Balance: {self.atm_balance}")
         return
 
 
